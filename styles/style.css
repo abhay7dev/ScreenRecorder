@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* :active {
+	outline: none;
+}
+
+body {
+	text-align: center;
+	font-family: 'Open sans';
+	background-color: #1e1e1e;
+	color: ghostwhite;
+}

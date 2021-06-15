@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="./styles/style.css"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<script async="async" defer="defer" type="module" src="./scripts/script.js"/>
+		<meta name="viewport" content="width=device-width,height=device-height"/>
+		<title>Screen recorder</title>
+	</head>
+	<body>
+		<header>
+			<h1>Easy screen recorder</h1>
+		</header>
+
+		<main>
+
+			<video autoplay="autoplay" class="video-js" controls="controls"></video>
+			<div id="buttons">
+				<button id="start">Start Recording</button>
+				<button id="stop" disabled="disabled">Stop Recording</button>
+			</div>
+
+		</main>
+
+		<footer>
+			<p>&copy; Abhay 2021</p>
+			<p>Trouble viewing this document? Click <a href="html-v.html">here</a> for the html version of this page.</p>
+		</footer>
+	</body>
+</html>
